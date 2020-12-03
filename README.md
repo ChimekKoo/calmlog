@@ -1,8 +1,8 @@
-# Simple python logging module
+# Calmlog
 
 #### Code examples:
 ```python
-from simplog import Logger, levels
+from calmlog import Logger, levels
 
 logger = Logger("logfile.log", debug=True) # If debug is true, don't ignore DEBUG level.
 
@@ -17,6 +17,6 @@ logger.writelog("My new level ;-) !", level=mynewlevel, fileout=False) # If 'fil
 ```
 More documentation:
 ```
->>> import simplog
->>> help(simplog)
+>>> import calmlog
+>>> help(calmlog)
 ```
